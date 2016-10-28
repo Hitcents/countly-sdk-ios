@@ -34,6 +34,7 @@
 		79BD63081DC3EAA6000B94FC /* CountlyStarRating.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD62F91DC3EAA6000B94FC /* CountlyStarRating.m */; };
 		79BD63091DC3EAA6000B94FC /* CountlyUserDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD62FB1DC3EAA6000B94FC /* CountlyUserDetails.m */; };
 		79BD630A1DC3EAA6000B94FC /* CountlyViewTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD62FD1DC3EAA6000B94FC /* CountlyViewTracking.m */; };
+		79BD63121DC3F7DD000B94FC /* Countly_OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 79BD63111DC3F7DD000B94FC /* Countly_OpenUDID.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +77,8 @@
 		79BD62FB1DC3EAA6000B94FC /* CountlyUserDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyUserDetails.m; sourceTree = "<group>"; };
 		79BD62FC1DC3EAA6000B94FC /* CountlyViewTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountlyViewTracking.h; sourceTree = "<group>"; };
 		79BD62FD1DC3EAA6000B94FC /* CountlyViewTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountlyViewTracking.m; sourceTree = "<group>"; };
+		79BD63101DC3F7DD000B94FC /* Countly_OpenUDID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Countly_OpenUDID.h; sourceTree = "<group>"; };
+		79BD63111DC3F7DD000B94FC /* Countly_OpenUDID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Countly_OpenUDID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 		79BD62CF1DC3EA30000B94FC = {
 			isa = PBXGroup;
 			children = (
+				79BD63101DC3F7DD000B94FC /* Countly_OpenUDID.h */,
+				79BD63111DC3F7DD000B94FC /* Countly_OpenUDID.m */,
 				79BD62E41DC3EAA6000B94FC /* Countly.h */,
 				79BD62E51DC3EAA6000B94FC /* Countly.m */,
 				79BD62E61DC3EAA6000B94FC /* CountlyAPM.h */,
@@ -220,6 +225,7 @@
 				79BD63071DC3EAA6000B94FC /* CountlyPersistency.m in Sources */,
 				79BD62FE1DC3EAA6000B94FC /* Countly.m in Sources */,
 				79BD63021DC3EAA6000B94FC /* CountlyConfig.m in Sources */,
+				79BD63121DC3F7DD000B94FC /* Countly_OpenUDID.m in Sources */,
 				79BD63091DC3EAA6000B94FC /* CountlyUserDetails.m in Sources */,
 				79BD62FF1DC3EAA6000B94FC /* CountlyAPM.m in Sources */,
 				79BD630A1DC3EAA6000B94FC /* CountlyViewTracking.m in Sources */,

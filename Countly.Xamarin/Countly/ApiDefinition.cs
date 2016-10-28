@@ -247,38 +247,38 @@ namespace CountlySDK
 		void CrashTest6 ();
 	}
 
-	[Static]
-	//[Verify (ConstantsInterfaceAssociation)]
-	partial interface Constants
-	{
-		// extern NSString *const CLYMessaging;
-		[Field ("CLYMessaging", "__Internal")]
-		NSString CLYMessaging { get; }
+	//[Static]
+	////[Verify (ConstantsInterfaceAssociation)]
+	//partial interface Constants
+	//{
+	//	// extern NSString *const CLYMessaging;
+	//	[Field ("CLYMessaging", "__Internal")]
+	//	NSString CLYMessaging { get; }
 
-		// extern NSString *const CLYCrashReporting;
-		[Field ("CLYCrashReporting", "__Internal")]
-		NSString CLYCrashReporting { get; }
+	//	// extern NSString *const CLYCrashReporting;
+	//	[Field ("CLYCrashReporting", "__Internal")]
+	//	NSString CLYCrashReporting { get; }
 
-		// extern NSString *const CLYAutoViewTracking;
-		[Field ("CLYAutoViewTracking", "__Internal")]
-		NSString CLYAutoViewTracking { get; }
+	//	// extern NSString *const CLYAutoViewTracking;
+	//	[Field ("CLYAutoViewTracking", "__Internal")]
+	//	NSString CLYAutoViewTracking { get; }
 
-		// extern NSString *const CLYAPM;
-		[Field ("CLYAPM", "__Internal")]
-		NSString CLYAPM { get; }
+	//	// extern NSString *const CLYAPM;
+	//	[Field ("CLYAPM", "__Internal")]
+	//	NSString CLYAPM { get; }
 
-		// extern NSString *const CLYIDFV;
-		[Field ("CLYIDFV", "__Internal")]
-		NSString CLYIDFV { get; }
+	//	// extern NSString *const CLYIDFV;
+	//	[Field ("CLYIDFV", "__Internal")]
+	//	NSString CLYIDFV { get; }
 
-		// extern NSString *const CLYIDFA __attribute__((deprecated("Use CLYIDFV instead!")));
-		[Field ("CLYIDFA", "__Internal")]
-		NSString CLYIDFA { get; }
+	//	// extern NSString *const CLYIDFA __attribute__((deprecated("Use CLYIDFV instead!")));
+	//	[Field ("CLYIDFA", "__Internal")]
+	//	NSString CLYIDFA { get; }
 
-		// extern NSString *const CLYOpenUDID __attribute__((deprecated("Use CLYIDFV instead!")));
-		[Field ("CLYOpenUDID", "__Internal")]
-		NSString CLYOpenUDID { get; }
-	}
+	//	// extern NSString *const CLYOpenUDID __attribute__((deprecated("Use CLYIDFV instead!")));
+	//	[Field ("CLYOpenUDID", "__Internal")]
+	//	NSString CLYOpenUDID { get; }
+	//}
 
 	// @interface CountlyConfig : NSObject
 	[BaseType (typeof(NSObject))]

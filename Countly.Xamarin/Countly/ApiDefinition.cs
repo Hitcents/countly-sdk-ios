@@ -5,7 +5,7 @@ using ObjCRuntime;
 using UIKit;
 using WatchConnectivity;
 
-namespace Countly
+namespace CountlySDK
 {
 	//// @protocol CountlyUserDetailsNullableString <NSObject>
 	//[Protocol, Model]

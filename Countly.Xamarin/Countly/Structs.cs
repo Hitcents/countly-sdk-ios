@@ -1,5 +1,5 @@
 ﻿using System;
 
-namespace Countly
+namespace CountlySDK
 {
 }
